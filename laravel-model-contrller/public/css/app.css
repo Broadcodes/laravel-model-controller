@@ -8,3 +8,44 @@ body {
   font-family: sans-serif;
 }
 
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container h1 {
+  padding: 30px;
+}
+
+.container .cards {
+  width: 70%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.container .cards .card {
+  margin: 5px;
+  width: calc(25% - 10px);
+  height: calc(50vh - 10px);
+  padding: 35px;
+  background-color: #ddd;
+  border: 3px solid #222;
+  box-shadow: inset 0px 0px 20px #000;
+}
+
+.container .cards .card h2 {
+  padding: 5px 0;
+  color: rgb(29, 29, 116);
+  line-height: 2.5rem;
+  text-align: center;
+}
+
+.container .cards .card h3 {
+  padding: 3px 0px;
+}
+
