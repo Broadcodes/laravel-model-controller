@@ -1,5 +1,9 @@
 @extends('shared.app')
 
 @section('sectionHome')
-home
+@foreach ($movies as $item)
+    <div>
+        {{$item}}
+    </div>
+@endforeach
 @endsection
